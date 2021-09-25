@@ -1,0 +1,75 @@
+body {
+  font-family: "Lucida" Grande, sans-serif;
+  min-height: 700px;
+  background-image: url("https://i.pinimg.com/originals/68/bc/07/68bc079fe2e065f6c17458be835e58c9.gif");
+  background-color: #000000;
+  background-size: auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #e53935;
+  margin: 10px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+  @media (max-height: 500px) {
+    body {
+      min-height: 800px;
+    }
+  }
+
+  input {
+    margin: 20px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 100px;
+  
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+button:hover {
+  background-color: #e53935;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.resultado {
+   width: 60%;
+   margin: auto;
+   color: #000000;
+   text-align: center;
+   margin-top: 16px;
+   background-color: white;
+   border-radius: 4px;
+  }
+}
